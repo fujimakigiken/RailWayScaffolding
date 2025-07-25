@@ -1,0 +1,16 @@
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.Form1.resources
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.csproj.GenerateResource.cache
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.GeneratedMSBuildEditorConfig.editorconfig
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.AssemblyInfoInputs.cache
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.AssemblyInfo.cs
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.csproj.CoreCompileInputs.cache
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\bin\Debug\net9.0-windows\RailWayScaffolding.exe
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\bin\Debug\net9.0-windows\RailWayScaffolding.deps.json
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\bin\Debug\net9.0-windows\RailWayScaffolding.runtimeconfig.json
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\bin\Debug\net9.0-windows\RailWayScaffolding.dll
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\bin\Debug\net9.0-windows\RailWayScaffolding.pdb
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.dll
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\refint\RailWayScaffolding.dll
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.pdb
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.genruntimeconfig.cache
+D:\vs2025\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\ref\RailWayScaffolding.dll

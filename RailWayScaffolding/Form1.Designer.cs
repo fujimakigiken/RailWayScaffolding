@@ -36,6 +36,7 @@
             sVG作成ToolStripMenuItem = new ToolStripMenuItem();
             pictureBox1 = new PictureBox();
             statusStrip1 = new StatusStrip();
+            listBox1 = new ListBox();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -86,12 +87,12 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Location = new Point(0, 28);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(800, 422);
+            pictureBox1.Size = new Size(741, 422);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.MouseClick += pictureBox1_MouseClick;
             // 
             // statusStrip1
             // 
@@ -102,11 +103,20 @@
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(747, 31);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(53, 384);
+            listBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(listBox1);
             Controls.Add(statusStrip1);
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
@@ -130,5 +140,6 @@
         private ToolStripMenuItem sVG作成ToolStripMenuItem;
         private PictureBox pictureBox1;
         private StatusStrip statusStrip1;
+        private ListBox listBox1;
     }
 }

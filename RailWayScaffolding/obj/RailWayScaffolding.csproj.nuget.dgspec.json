@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs2025\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj": {}
+    "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj": {}
   },
   "projects": {
-    "D:\\vs2025\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj": {
+    "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs2025\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj",
+        "projectUniqueName": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj",
         "projectName": "RailWayScaffolding",
-        "projectPath": "D:\\vs2025\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj",
+        "projectPath": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\RailWayScaffolding.csproj",
         "packagesPath": "C:\\Users\\藤巻輝成\\.nuget\\packages\\",
-        "outputPath": "D:\\vs2025\\RailWayScaffolding\\RailWayScaffolding\\obj\\",
+        "outputPath": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

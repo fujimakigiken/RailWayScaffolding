@@ -11,20 +11,12 @@
       "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\svgcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|e:\\work\\amap\\railwayscaffolding\\railwayscaffolding\\stationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\stationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|e:\\work\\amap\\railwayscaffolding\\railwayscaffolding\\initcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\initcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|E:\\work\\aMap\\RailWayScaffolding\\railwayscaffolding\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|e:\\work\\amap\\railwayscaffolding\\railwayscaffolding\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|e:\\work\\amap\\railwayscaffolding\\railwayscaffolding\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|e:\\work\\amap\\railwayscaffolding\\railwayscaffolding\\htmlcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4ACB952-9F8D-452E-9D94-08ABFE69EA14}|RailWayScaffolding\\RailWayScaffolding.csproj|solutionrelative:railwayscaffolding\\htmlcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +38,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Property.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Property.cs",
-              "RelativeDocumentMoniker": "RailWayScaffolding\\Property.cs",
-              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Property.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "RelativeToolTip": "RailWayScaffolding\\Property.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T05:29:58.355Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Property.cs",
-              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Property.cs",
-              "RelativeDocumentMoniker": "RailWayScaffolding\\Property.cs",
-              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Property.cs",
-              "RelativeToolTip": "RailWayScaffolding\\Property.cs",
+              "DocumentIndex": 2,
+              "Title": "InitCommand.cs",
+              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\InitCommand.cs",
+              "RelativeDocumentMoniker": "RailWayScaffolding\\InitCommand.cs",
+              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\InitCommand.cs",
+              "RelativeToolTip": "RailWayScaffolding\\InitCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T04:39:04.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Form1.cs",
-              "RelativeDocumentMoniker": "RailWayScaffolding\\Form1.cs",
-              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "RelativeToolTip": "RailWayScaffolding\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T11:55:12.657Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StationInfo.cs",
-              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\StationInfo.cs",
-              "RelativeDocumentMoniker": "RailWayScaffolding\\StationInfo.cs",
-              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\StationInfo.cs",
-              "RelativeToolTip": "RailWayScaffolding\\StationInfo.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAIA0wGYAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T23:43:44.963Z",
+              "WhenOpened": "2025-07-31T17:57:30.811Z",
               "EditorCaption": ""
             },
             {
@@ -102,9 +57,22 @@
               "RelativeDocumentMoniker": "RailWayScaffolding\\SVGCreator.cs",
               "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\SVGCreator.cs",
               "RelativeToolTip": "RailWayScaffolding\\SVGCreator.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAIwNoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAqwBoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:11:41.658Z",
+              "WhenOpened": "2025-07-31T15:19:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HTMLCreator.cs",
+              "DocumentMoniker": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\HTMLCreator.cs",
+              "RelativeDocumentMoniker": "RailWayScaffolding\\HTMLCreator.cs",
+              "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\HTMLCreator.cs",
+              "RelativeToolTip": "RailWayScaffolding\\HTMLCreator.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:03:36.589Z",
               "EditorCaption": ""
             },
             {
@@ -115,7 +83,7 @@
               "RelativeDocumentMoniker": "RailWayScaffolding\\Form1.cs",
               "ToolTip": "E:\\work\\aMap\\RailWayScaffolding\\RailWayScaffolding\\Form1.cs",
               "RelativeToolTip": "RailWayScaffolding\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAAArwP0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T16:56:30.815Z",
               "EditorCaption": ""

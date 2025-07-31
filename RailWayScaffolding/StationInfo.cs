@@ -13,14 +13,17 @@ namespace RailWayScaffolding
         public string stationName { get; set; }
         public float kiro { get; set; }
 
+        public string stationNameRomanCharacter { get; set; }
+
         public StationInfo()
         {
         }
-        public StationInfo(int id, string stationName, float kiro)
+        public StationInfo(int id, string stationName, float kiro, string stationNameRomanCharacter)
         {
             this.id = id;
             this.stationName = stationName;
             this.kiro = kiro;
+            this.stationNameRomanCharacter = stationNameRomanCharacter;
         }
     }
 

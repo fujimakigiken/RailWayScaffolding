@@ -37,6 +37,7 @@
             pictureBox1 = new PictureBox();
             statusStrip1 = new StatusStrip();
             listBox1 = new ListBox();
+            hTML作成ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -59,7 +60,7 @@
             // 
             // 編集ToolStripMenuItem
             // 
-            編集ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 駅の設定ToolStripMenuItem, sVG作成ToolStripMenuItem });
+            編集ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 駅の設定ToolStripMenuItem, sVG作成ToolStripMenuItem, hTML作成ToolStripMenuItem });
             編集ToolStripMenuItem.Name = "編集ToolStripMenuItem";
             編集ToolStripMenuItem.Size = new Size(53, 24);
             編集ToolStripMenuItem.Text = "編集";
@@ -68,7 +69,7 @@
             // 
             駅の設定ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cSVからToolStripMenuItem });
             駅の設定ToolStripMenuItem.Name = "駅の設定ToolStripMenuItem";
-            駅の設定ToolStripMenuItem.Size = new Size(149, 26);
+            駅の設定ToolStripMenuItem.Size = new Size(224, 26);
             駅の設定ToolStripMenuItem.Text = "駅の設定";
             // 
             // cSVからToolStripMenuItem
@@ -81,7 +82,7 @@
             // sVG作成ToolStripMenuItem
             // 
             sVG作成ToolStripMenuItem.Name = "sVG作成ToolStripMenuItem";
-            sVG作成ToolStripMenuItem.Size = new Size(149, 26);
+            sVG作成ToolStripMenuItem.Size = new Size(224, 26);
             sVG作成ToolStripMenuItem.Text = "SVG作成";
             sVG作成ToolStripMenuItem.Click += sVG作成ToolStripMenuItem_Click;
             // 
@@ -110,6 +111,13 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(53, 384);
             listBox1.TabIndex = 3;
+            // 
+            // hTML作成ToolStripMenuItem
+            // 
+            hTML作成ToolStripMenuItem.Name = "hTML作成ToolStripMenuItem";
+            hTML作成ToolStripMenuItem.Size = new Size(224, 26);
+            hTML作成ToolStripMenuItem.Text = "HTML作成";
+            hTML作成ToolStripMenuItem.Click += hTML作成ToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -141,5 +149,6 @@
         private PictureBox pictureBox1;
         private StatusStrip statusStrip1;
         private ListBox listBox1;
+        private ToolStripMenuItem hTML作成ToolStripMenuItem;
     }
 }

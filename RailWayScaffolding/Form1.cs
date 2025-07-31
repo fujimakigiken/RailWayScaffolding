@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text;
 using System.Windows.Forms;
 
 namespace RailWayScaffolding
@@ -7,7 +8,7 @@ namespace RailWayScaffolding
     {
         public List<StationInfo> StationInfos = new List<StationInfo>();
         public List<StationPoint> StationPoints = new List<StationPoint>();
-
+        public string EkikanParameterStr = string.Empty;
         public Form1()
         {
             InitializeComponent();
@@ -63,6 +64,8 @@ namespace RailWayScaffolding
 
         private void cSVからToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            StationInfos.Clear();
+
             using (var openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
@@ -74,9 +77,9 @@ namespace RailWayScaffolding
                         while ((line = sr.ReadLine()) != null)
                         {
                             var parts = line.Split(',');
-                            if (parts.Length == 3 && int.TryParse(parts[0], out int id) && float.TryParse(parts[2], out float kiro))
+                            if (parts.Length == 4 && int.TryParse(parts[0], out int id) && float.TryParse(parts[2], out float kiro))
                             {
-                                var stationInfo = new StationInfo(id, parts[1], kiro);
+                                var stationInfo = new StationInfo(id, parts[1], kiro, parts[3]);
                                 StationInfos.Add(stationInfo);
                             }
                         }
@@ -84,18 +87,29 @@ namespace RailWayScaffolding
                         MessageBox.Show(StationInfos.Count + "件の駅情報を読み込みました。");
                     }
                 }
-
             }
         }
 
         private void sVG作成ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            float EkikanParameter = 30.0f; // デフォルト値
+
+            using (var initCommand = new InitCommand(this))
+            {
+                if (initCommand.ShowDialog() == DialogResult.OK)
+                {
+                    EkikanParameter = float.TryParse(EkikanParameterStr, out float ekikanParam) ? ekikanParam : 30.0f;
+
+                    EkikanParameter = float.Parse(EkikanParameterStr);
+                }
+            }
+
             using (var saveFileDialog = new SaveFileDialog())
             {
                 saveFileDialog.Filter = "SVG files (*.svg)|*.svg|All files (*.*)|*.*";
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    var svg = new SVGCreator(StationInfos);
+                    var svg = new SVGCreator(StationInfos, EkikanParameter);
                     svg.StationRect();
                     svg.StationText();
                     svg.SVHBuild(saveFileDialog.FileName);
@@ -186,10 +200,45 @@ namespace RailWayScaffolding
                 listBox1.Items.Add(item.title);
             }
         }
+
+        /// <summary>
+        /// 3つのセグメント(point, area, station)のコントロールにアクセスするためのJavaScriptコードを生成します。
+        /// </summary>
+        /// 
+
+        private void hTML作成ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            float EkikanParameter = 30.0f; // デフォルト値
+
+            using (var initCommand = new InitCommand(this))
+            {
+                if (initCommand.ShowDialog() == DialogResult.OK)
+                {
+                    EkikanParameter = float.TryParse(EkikanParameterStr, out float ekikanParam) ? ekikanParam : 30.0f;
+
+                    EkikanParameter = float.Parse(EkikanParameterStr);
+                }
+            }
+
+            using (var saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "HTML files (*.html)|*.html|All files (*.*)|*.*";
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    var html = new HTMLCreator(StationInfos, EkikanParameter);
+                    html.StationRect();
+                    html.StationText();
+                    html.SVHBuild(saveFileDialog.FileName);
+                }
+            }
+        }
     }
 }
 
 /*
+
+JSの生成機能
  
 svgファイルの読み込み
 
@@ -202,6 +251,12 @@ svgファイルの読み込み
 プレゼンテーションの実装
 
 
+
+当面はタイプは１種類だけ、都合によっては入れ替えができるシステムにする
+基本的には、足場だけのシステムなので、
+CSSなどは、あとからいかようにも変更可能
+
+    パラメーターの整理
 
 
  */

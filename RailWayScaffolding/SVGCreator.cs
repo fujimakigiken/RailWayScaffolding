@@ -8,28 +8,30 @@ namespace RailWayScaffolding
 {
     class SVGCreator
     {
-        ViewBox initViewBox = null;
-        Stem initStem = new Stem();
-        GTag initGTag = new GTag();
-        StationStruct initStationStruct = new StationStruct();
-        RectStruct initRectStruct = new RectStruct();
+        public ViewBox initViewBox = null;
+        public Stem initStem = new Stem();
+        public GTag initGTag = new GTag();
+        public StationStruct initStationStruct = new StationStruct();
+        public RectStruct initRectStruct = new RectStruct();
 
-        List<StationInfo> stationInfos = new List<StationInfo>();
+        public List<StationInfo> stationInfos = new List<StationInfo>();
+        public float EkikanParameter = 30.0f; // Default value, can be set from outside
 
         public List<string> rectList = new List<string>();
         public List<string> stationText = new List<string>();
 
         //public string stylesheet = "    <style>\r\n      .st0 {\r\n        fill: #00a0e9;\r\n        stroke: #231815;\r\n      }\r\n\r\n      .st0, .st1 {\r\n        stroke-miterlimit: 10;\r\n      }\r\n\r\n      .st2, .st1 {\r\n        fill: #fff;\r\n      }\r\n\r\n      .st3 {\r\n        font-family: ArialMT, Arial;\r\n      }\r\n\r\n      .st4, .st5 {\r\n        isolation: isolate;\r\n      }\r\n\r\n      .st5 {\r\n        fill: #231815;\r\n        font-size: 12px;\r\n      }\r\n\r\n      .st6 {\r\n        font-family: KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';\r\n      }\r\n\r\n      .st1 {\r\n        stroke: #53b332;\r\n      }\r\n    </style>";
-        public SVGCreator(List<StationInfo> stationInfos) 
+        public SVGCreator(List<StationInfo> stationInfos, float EkikanParameter) 
         {
             this.stationInfos = stationInfos;
+            this.EkikanParameter = EkikanParameter;
 
             initViewBox = new ViewBox();
 
             GetParameter();
         }
 
-        private void GetParameter()
+        public void GetParameter()
         {
             using(var sr = new StreamReader("scaffolding.conf"))
             {
@@ -173,7 +175,7 @@ namespace RailWayScaffolding
 
         public void StationRect()
         {
-            float addValueY = 30f;
+            float addValueY = EkikanParameter;
 
             for (int i = 0; i < stationInfos.Count; i++)
             {
@@ -185,7 +187,7 @@ namespace RailWayScaffolding
 
         public void StationText()
         {
-            float addValueY = 30f;
+            float addValueY = EkikanParameter;
 
             for (int i = 0; i < stationInfos.Count; i++)
             {

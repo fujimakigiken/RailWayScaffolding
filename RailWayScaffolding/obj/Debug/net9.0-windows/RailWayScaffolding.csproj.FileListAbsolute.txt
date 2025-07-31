@@ -32,3 +32,4 @@ E:\work\aMap\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\Rail
 E:\work\aMap\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\ref\RailWayScaffolding.dll
 E:\work\aMap\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.Form1.resources
 E:\work\aMap\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.Property.resources
+E:\work\aMap\RailWayScaffolding\RailWayScaffolding\obj\Debug\net9.0-windows\RailWayScaffolding.InitCommand.resources

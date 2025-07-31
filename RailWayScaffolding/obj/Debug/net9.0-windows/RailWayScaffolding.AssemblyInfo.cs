@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RailWayScaffolding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+333a6a9e8a51af6420fc176f04f7d04a11789e30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+777d94642729ea5d5326429692005ff79e6fb647")]
 [assembly: System.Reflection.AssemblyProductAttribute("RailWayScaffolding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RailWayScaffolding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
